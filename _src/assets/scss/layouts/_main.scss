@@ -15,6 +15,7 @@
     text-transform: capitalize;
     font-family: "Roboto Slab";
     font-size: 2.4rem;
+    line-height: 3rem;
     padding-top: 0.1rem;
   }
 
@@ -45,5 +46,29 @@
 @media all and (min-width: 768px) {
   .main {
     padding: 3rem 3.9rem 0rem 3.9rem;
+
+    &__title {
+      font-size: 2.6rem;
+      line-height: 4.5rem;
+    }
+
+    &__text {
+      font-size: 2rem;
+      padding-top: 3rem;
+    }
+
+    &__link {
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .main {
+    padding: 6rem 27.5rem 0 27.5rem;
+
+    &__title {
+      font-size: 3.2rem;
+    }
   }
 }
