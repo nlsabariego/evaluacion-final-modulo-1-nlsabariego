@@ -1,0 +1,95 @@
+.reasons {
+  //   border: solid 5px red;
+  height: auto;
+  padding: 0 1.5rem;
+
+  &__title {
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 2.4rem;
+    padding-top: 3rem;
+  }
+
+  &__grid {
+    // border: solid blue 2px;
+    margin: 0 auto;
+    padding-top: 4.5rem;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "reasons1" "reasons2"
+      "reasons3";
+    grid-gap: 4.5rem;
+    max-width: 18rem;
+  }
+
+  &__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: reasons1;
+
+    &--title {
+      font-family: "Roboto Slad";
+      font-size: 1.8rem;
+    }
+
+    &--text {
+      font-display: "Roboto";
+      font-size: 1.8rem;
+    }
+  }
+  &__2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: reasons2;
+
+    &--title {
+      font-family: "Roboto Slad";
+      font-size: 1.8rem;
+    }
+
+    &--text {
+      font-display: "Roboto";
+      font-size: 1.8rem;
+    }
+  }
+  &__3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: reasons3;
+
+    &--title {
+      font-family: "Roboto Slad";
+      font-size: 1.8rem;
+    }
+
+    &--text {
+      font-display: "Roboto";
+      font-size: 1.8rem;
+    }
+  }
+  &__link {
+    border: solid 0.2rem #f26002;
+    background: #f26002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: white;
+    width: 18.4rem;
+    height: 4.5rem;
+    border-radius: 2.25rem;
+    margin: 4.5rem auto 6rem auto;
+  }
+}
