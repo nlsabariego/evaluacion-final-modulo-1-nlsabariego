@@ -1,38 +1,36 @@
 .header {
   display: flex;
   flex-direction: column;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
 
   &__menu {
     background: #0271bc;
     position: fixed;
     padding: 14px;
   }
-
-  &__image {
-    height: 100vh;
-  }
 }
 
-.hero {
+.header__info {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: -174px;
 
-  &__title {
+  &--title {
     color: white;
     font-size: 45px;
     text-align: center;
     text-transform: uppercase;
   }
 
-  &__small {
+  &--small {
     color: white;
     font-size: 16px;
   }
 
-  &__arrow {
+  &--arrow {
     background: white;
     padding: 16px 13px;
     border-radius: 50%;
