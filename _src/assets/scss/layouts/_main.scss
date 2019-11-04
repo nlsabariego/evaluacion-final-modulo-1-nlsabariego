@@ -1,0 +1,43 @@
+.main {
+  border: solid 5px red;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 3rem 1.5rem 0rem 1.5rem;
+
+  &__small {
+    font-family: "Roboto";
+    font-size: 1.4rem;
+    color: #8ccbea;
+  }
+  &__title {
+    text-transform: capitalize;
+    font-family: "Roboto Slab";
+    font-size: 2.4rem;
+    padding-top: 0.1rem;
+  }
+
+  &__text {
+    font-family: "Roboto";
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    padding-top: 1.5rem;
+  }
+
+  &__link {
+    border: solid 0.2rem #f26002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: #f26002;
+    width: 7.6rem;
+    height: 4.5rem;
+    border-radius: 2.25rem;
+    margin-top: 3rem;
+    margin-bottom: 4.5rem;
+  }
+}
