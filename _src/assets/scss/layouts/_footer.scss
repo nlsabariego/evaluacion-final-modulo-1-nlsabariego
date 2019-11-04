@@ -1,0 +1,42 @@
+.footer {
+  border: solid 5px green;
+  background: #304268;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto";
+  color: white;
+
+  &__arrow {
+    background: white;
+    padding: 0.9rem 1.2rem;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    line-height: 0rem;
+  }
+  &__menu {
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding-top: 1.45rem;
+  }
+
+  &__social {
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding-top: 3rem;
+  }
+
+  &__end {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 3rem;
+  }
+
+  &__small--heart {
+    color: #f26002;
+  }
+}
