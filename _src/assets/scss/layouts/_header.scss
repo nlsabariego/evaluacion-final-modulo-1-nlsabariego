@@ -1,11 +1,15 @@
 .header {
+  border: solid 5px red;
   display: flex;
   flex-direction: column;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 
   &__menu {
+    border: solid 3px green;
     background: #0271bc;
     position: fixed;
     padding: 14px;
@@ -13,10 +17,13 @@
 }
 
 .header__info {
+  border: solid 3px blue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  justify-items: center;
   align-items: center;
-  position: relative;
+  font-family: "Roboto Slab";
 
   &--title {
     color: white;
