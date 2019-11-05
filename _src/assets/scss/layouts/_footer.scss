@@ -14,7 +14,25 @@
     border-radius: 50%;
     transform: translateY(-50%);
     line-height: 0rem;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
+
+  @keyframes scale {
+    0% {
+      transform: translateY(-50%) scale(0);
+    }
+
+    50% {
+      transform: translateY(-50%) scale(1.5);
+    }
+
+    100% {
+      transform: translateY(-50%) scale(0);
+    }
+  }
+
   &__menu {
     text-align: center;
     font-size: 1.6rem;
