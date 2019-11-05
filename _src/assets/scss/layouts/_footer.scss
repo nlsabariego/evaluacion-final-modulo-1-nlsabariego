@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Roboto";
-  color: white;
+  font-family: $FontRegular;
+  color: $ColorLight;
   padding-bottom: 4.5rem;
 
   &__arrow {
-    background: white;
+    background: $ColorLight;
     padding: 0.9rem 1.2rem;
     border-radius: 50%;
     transform: translateY(-50%);
@@ -38,7 +38,7 @@
   }
 
   &__small--heart {
-    color: #f26002;
+    color: $ColorButton;
   }
 }
 

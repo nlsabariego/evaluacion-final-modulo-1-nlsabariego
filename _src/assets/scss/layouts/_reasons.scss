@@ -6,7 +6,7 @@
 
   &__title {
     text-align: center;
-    font-family: "Roboto Slab";
+    font-family: $FontStrong;
     font-size: 2.4rem;
     padding-top: 3rem;
   }
@@ -35,12 +35,12 @@
     grid-area: reasons1;
 
     &--title {
-      font-family: "Roboto Slad";
+      font-family: $FontStrong;
       font-size: 1.8rem;
     }
 
     &--text {
-      font-display: "Roboto";
+      font-display: $FontRegular;
       font-size: 1.8rem;
     }
   }
@@ -52,12 +52,12 @@
     grid-area: reasons2;
 
     &--title {
-      font-family: "Roboto Slad";
+      font-family: $FontStrong;
       font-size: 1.8rem;
     }
 
     &--text {
-      font-display: "Roboto";
+      font-display: $FontRegular;
       font-size: 1.8rem;
     }
   }
@@ -69,25 +69,25 @@
     grid-area: reasons3;
 
     &--title {
-      font-family: "Roboto Slad";
+      font-family: $FontStrong;
       font-size: 1.8rem;
     }
 
     &--text {
-      font-display: "Roboto";
+      font-display: $FontRegular;
       font-size: 1.8rem;
     }
   }
   &__link {
-    border: solid 0.2rem #f26002;
-    background: #f26002;
+    border: solid 0.2rem $ColorButton;
+    background: $ColorButton;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: $FontRegular;
     font-size: 2rem;
-    color: white;
+    color: $ColorLight;
     width: 18.5rem;
     height: 4.5rem;
     border-radius: 2.25rem;
@@ -95,8 +95,8 @@
     transition: color ease 1s, background ease 1.5s;
 
     &:hover {
-      color: #f26002;
-      background: white;
+      color: $ColorButton;
+      background: $ColorLight;
     }
   }
 }

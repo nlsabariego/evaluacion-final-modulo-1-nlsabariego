@@ -30,8 +30,8 @@
   padding: 0rem 1.5rem 5.3rem 1.5rem;
 
   &--title {
-    color: white;
-    font-family: "Roboto Slab";
+    color: $ColorLight;
+    font-family: $FontStrong;
     font-size: 4.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -40,15 +40,15 @@
   }
 
   &--small {
-    color: white;
-    font-family: "Roboto";
+    color: $ColorLight;
+    font-family: $FontRegular;
     font-size: 1.6rem;
     font-weight: normal;
     padding-bottom: 4.5rem;
   }
 
   &--arrow {
-    background: white;
+    background: $ColorLight;
     padding: 1.6rem 1.3rem;
     border-radius: 50%;
   }

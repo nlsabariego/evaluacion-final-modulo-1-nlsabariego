@@ -7,34 +7,34 @@
   padding: 3rem 1.5rem 0rem 1.5rem;
 
   &__small {
-    font-family: "Roboto";
+    font-family: $FontRegular;
     font-size: 1.4rem;
     color: #8ccbea;
   }
   &__title {
     text-transform: capitalize;
-    font-family: "Roboto Slab";
+    font-family: $FontStrong;
     font-size: 2.4rem;
     line-height: 3rem;
     padding-top: 0.1rem;
   }
 
   &__text {
-    font-family: "Roboto";
+    font-family: $FontRegular;
     font-size: 1.8rem;
     color: #4a4a4a;
     padding-top: 1.5rem;
   }
 
   &__link {
-    border: solid 0.2rem #f26002;
+    border: solid 0.2rem $ColorButton;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: $FontRegular;
     font-size: 2rem;
-    color: #f26002;
+    color: $ColorButton;
     width: 7.6rem;
     height: 4.5rem;
     border-radius: 2.25rem;
@@ -43,8 +43,8 @@
     transition: color ease 1s, background ease 1.5s;
 
     &:hover {
-      color: white;
-      background: #f26002;
+      color: $ColorLight;
+      background: $ColorButton;
     }
   }
 }
