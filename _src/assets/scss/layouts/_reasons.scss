@@ -1,5 +1,4 @@
 .reasons {
-  //   border: solid 5px red;
   height: auto;
   background: #eff9ff;
   padding: 0 1.5rem 6rem 1.5rem;
@@ -12,11 +11,9 @@
   }
 
   &__grid {
-    // border: solid blue 2px;
     margin: 0 auto;
     padding-top: 4.5rem;
     text-align: center;
-
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -108,7 +105,6 @@
     }
 
     &__grid {
-      // border: solid 3px blue;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -120,6 +116,7 @@
       &--title {
         font-size: 2.4rem;
       }
+
       &--text {
         font-size: 2rem;
       }
@@ -129,6 +126,7 @@
       &--title {
         font-size: 2.4rem;
       }
+
       &--text {
         font-size: 2rem;
       }
@@ -138,6 +136,7 @@
       &--title {
         font-size: 2.4rem;
       }
+
       &--text {
         font-size: 2rem;
       }
