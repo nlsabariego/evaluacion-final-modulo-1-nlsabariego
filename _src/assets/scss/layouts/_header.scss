@@ -2,6 +2,7 @@
   // border: solid 5px red;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +13,7 @@
     // border: solid 3px green;
     background: #0271bc;
     position: fixed;
+    align-self: flex-start;
     padding: 1.4rem;
   }
 }
@@ -21,6 +23,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  max-width: 40rem;
   justify-items: center;
   align-items: center;
   height: 100%;
@@ -54,6 +57,7 @@
 @media all and (min-width: 768px) {
   .header__info {
     padding: 0 3.9rem 4.5rem 3.9rem;
+    max-width: 76rem;
 
     &--title {
       text-align: center;
@@ -72,6 +76,7 @@
 @media all and (min-width: 1024px) {
   .header__info {
     padding: 0 27.5rem 1.3rem 27.5rem;
+    max-width: 90rem;
 
     &--title {
       padding-bottom: 0;
