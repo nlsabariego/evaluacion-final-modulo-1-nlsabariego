@@ -92,6 +92,12 @@
     height: 4.5rem;
     border-radius: 2.25rem;
     margin: 4.5rem auto 0rem auto;
+    transition: color ease 1s, background ease 1.5s;
+
+    &:hover {
+      color: #f26002;
+      background: white;
+    }
   }
 }
 

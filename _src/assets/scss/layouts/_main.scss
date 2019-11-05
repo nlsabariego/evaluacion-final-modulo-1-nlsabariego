@@ -40,6 +40,12 @@
     border-radius: 2.25rem;
     margin-top: 3rem;
     margin-bottom: 4.5rem;
+    transition: color ease 1s, background ease 1.5s;
+
+    &:hover {
+      color: white;
+      background: #f26002;
+    }
   }
 }
 
