@@ -1,7 +1,8 @@
 .reasons {
   //   border: solid 5px red;
   height: auto;
-  padding: 0 1.5rem;
+  background: #eff9ff;
+  padding: 0 1.5rem 6rem 1.5rem;
 
   &__title {
     text-align: center;
@@ -90,6 +91,54 @@
     width: 18.4rem;
     height: 4.5rem;
     border-radius: 2.25rem;
-    margin: 4.5rem auto 6rem auto;
+    margin: 4.5rem auto 0rem auto;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .reasons {
+    &__title {
+      font-size: 2.6rem;
+    }
+
+    &__grid {
+      // border: solid 3px blue;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      max-width: none;
+    }
+
+    &__1 {
+      &--title {
+        font-size: 2.4rem;
+      }
+      &--text {
+        font-size: 2rem;
+      }
+    }
+
+    &__2 {
+      &--title {
+        font-size: 2.4rem;
+      }
+      &--text {
+        font-size: 2rem;
+      }
+    }
+
+    &__3 {
+      &--title {
+        font-size: 2.4rem;
+      }
+      &--text {
+        font-size: 2rem;
+      }
+    }
+
+    &__link {
+      margin: 6rem auto 0 auto;
+    }
   }
 }
