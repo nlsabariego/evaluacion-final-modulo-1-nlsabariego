@@ -88,7 +88,7 @@
     font-family: "Roboto";
     font-size: 2rem;
     color: white;
-    width: 18.4rem;
+    width: 18.5rem;
     height: 4.5rem;
     border-radius: 2.25rem;
     margin: 4.5rem auto 0rem auto;
@@ -138,6 +138,20 @@
     }
 
     &__link {
+      width: 21rem;
+      margin: 6rem auto 0 auto;
+    }
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .reasons {
+    &__title {
+      font-size: 3.2rem;
+    }
+
+    &__link {
+      width: 25.5rem;
       margin: 6rem auto 0 auto;
     }
   }

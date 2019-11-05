@@ -6,6 +6,7 @@
   align-items: center;
   font-family: "Roboto";
   color: white;
+  padding-bottom: 4.5rem;
 
   &__arrow {
     background: white;
@@ -38,5 +39,46 @@
 
   &__small--heart {
     color: #f26002;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    &__navigator {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100vw;
+      padding-bottom: 4.5rem;
+    }
+
+    &__menu {
+      padding-top: 0;
+      order: 2;
+      text-align: left;
+      min-width: 21rem;
+    }
+
+    &__social {
+      padding-top: 0;
+      order: 3;
+      text-align: left;
+      min-width: 21rem;
+    }
+
+    &__end {
+      padding-top: 0;
+      order: 1;
+      text-align: left;
+      min-width: 21rem;
+    }
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .footer {
+    &__navigator {
+      justify-content: center;
+    }
   }
 }
