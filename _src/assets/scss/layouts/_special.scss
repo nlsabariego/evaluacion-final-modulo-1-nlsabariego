@@ -1,0 +1,15 @@
+.special {
+  display: none;
+}
+
+@media all and (min-width: 300px) {
+  .special {
+    display: flex;
+    flex-direction: column;
+    &__text {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
